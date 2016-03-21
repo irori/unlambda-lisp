@@ -1,7 +1,11 @@
-#!/usr/local/bin/gosh
-(use gauche.sequence)
-(require "./unlc.scm")
-(require "./lib.scm")
+;; Lisp reader / printer
+
+(define-module read
+  (use gauche.sequence)
+  (use unlc)
+  (use lib)
+  )
+(select-module read)
 
 (defmacro idInt c0)
 (defmacro idProcedure c1)

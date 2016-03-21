@@ -1,7 +1,11 @@
-#!/usr/local/bin/gosh
-(require "./unlc.scm")
-(require "./lib.scm")
-(require "./read.scm")
+#!/usr/bin/gosh
+
+;; Unlambda-Lisp: main script
+
+(add-load-path "." :relative)
+(use unlc)
+(use lib)
+(use read)
 
 ;; Utilities
 
