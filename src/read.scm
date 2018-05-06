@@ -151,7 +151,7 @@
      ((call/cc I)
       (call/cc ((or (read-char=? #\space)
                     (read-char=? #\newline))
-                @ I)))))
+                @ not exit I)))))
 
 ; (read V Symtbl) -> (Sexp, Symtbl)
 (defrecmacro (read inlist symtbl)
