@@ -3,7 +3,8 @@
 ;; Unlambda-Lisp: main script
 
 (add-load-path "." :relative)
-(use unlc)
+(use unlambda.compiler)
+(use unlambda.prelude)
 (use lib)
 (use read)
 

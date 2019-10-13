@@ -2,7 +2,8 @@
 
 (define-module read
   (use gauche.sequence)
-  (use unlc)
+  (use unlambda.compiler)
+  (use unlambda.prelude)
   (use lib)
   )
 (select-module read)
